@@ -1,27 +1,11 @@
 *{
     margin: 0px;
 }
-.navbar{
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
 
-.logobox{
-    padding-left: 1vh;
-    padding-top: 1vh;
-}
-
-.logo{
-    width: auto;
-    height: 8vh;
-}
 
 .content {
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,14 +33,26 @@ button {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 15%;
     justify-content: center;
+    border: 0;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
 }
+
+button:hover {
+        box-shadow: rgba(255, 255, 255, 0.64) 0px 3px 8px;
+        color: rgba(0, 0, 0, 0.80);
+    }
 
 .num{
     font-family: 'Times New Roman', Times, serif;
     font-size: 100px;
     font-weight: 700;
     color: white;
-    padding-left: 25px;
-    padding-right: 25px;
-    border: 0;
+    padding-left: 10vh;
+    padding-right: 10vh;
 }
+
+button:active {
+    background-color: rgba(0, 0, 220, 0.55);
+    box-shadow: rgba(255, 255, 255, 0.55) 0px 1px 4px;
+    color: white;
+  }
